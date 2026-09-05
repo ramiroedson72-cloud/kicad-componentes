@@ -1,0 +1,8 @@
+# respaldos de KiCad y del editor de simbolos
+*.bak
+*.bak2
+*.bak-*
+*-bak
+*.kicad_sym-bak
+*.kicad_prl
+fp-info-cache

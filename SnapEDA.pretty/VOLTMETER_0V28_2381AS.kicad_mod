@@ -1,0 +1,233 @@
+(footprint "VOLTMETER_0V28_2381AS"
+	(version 20240108)
+	(generator "fuente360w_tools")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "Voltimetro digital LED 0.28in 3 hilos 0-100V, modulo 2381AS-1 (UNIT AR0574). 31.64x10.5x8.5mm, barrenos M2 a 26.5mm, cables amarillo=VIN rojo=VCC+ negro=GND. Montaje con separadores M2 de 6.0mm. Cotas medidas del STEP de GrabCAD; la ficha de UNIT (25x15x10) esta equivocada.")
+	(tags "voltmeter voltimetro display module modulo 2381AS 0.28 0-100V THT")
+	(attr through_hole)
+	(property "Reference" "M**"
+		(at 0 -6.75 0)
+		(layer "F.SilkS")
+		(uuid "a4c4ae8e-b378-4728-8ea3-740b2f5ebb57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VOLTMETER_0V28_2381AS"
+		(at 0 10.7 0)
+		(layer "F.Fab")
+		(uuid "4886cfa3-0cc5-4267-a4bc-9f2c62b8c7a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 5.585 7.5)
+		(size 1.8 1.8)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5646623-ce26-4e51-9348-d2131385cc7d")
+	)
+	(pad "2" thru_hole circle
+		(at 8.125 7.5)
+		(size 1.8 1.8)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43ff40db-a469-47f1-9d2c-b995aeefd556")
+	)
+	(pad "3" thru_hole circle
+		(at 10.665 7.5)
+		(size 1.8 1.8)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b1b328a-87e1-4ddf-b873-c42226b27ae4")
+	)
+	(pad "" np_thru_hole circle
+		(at -13.25 0)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6039783c-a8a5-4a43-a6da-45e4273cc092")
+	)
+	(pad "" np_thru_hole circle
+		(at 13.25 0)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "32776612-5615-4384-858c-ffde71076a68")
+	)
+	(fp_rect
+		(start -15.82 -5.25)
+		(end 15.82 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "37247b7d-3104-4c0d-98fe-b1876230cd7b")
+	)
+	(fp_rect
+		(start -15.82 -5.25)
+		(end 15.82 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "73bc3ff3-1d03-4f42-9f07-f102c2f6ae95")
+	)
+	(fp_rect
+		(start -11.3 -5.0)
+		(end 11.3 5.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0abf214c-c80a-4f91-b77c-bf97ad981120")
+	)
+	(fp_circle
+		(center 6.125 4.2)
+		(end 6.765 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "998d1e0d-87d0-460d-b910-662c2b440f85")
+	)
+	(fp_circle
+		(center 8.125 4.2)
+		(end 8.765 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5705a7ae-32ce-4edf-b76e-e2041bedb99a")
+	)
+	(fp_circle
+		(center 10.125 4.2)
+		(end 10.765 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cd2b10fd-66ff-48cf-aa41-75ddff8e11b2")
+	)
+	(fp_circle
+		(center -13.25 0)
+		(end -11.65 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be357618-f96e-43b9-8c55-3e0fb730b12e")
+	)
+	(fp_circle
+		(center 13.25 0)
+		(end 14.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e5346664-41f4-4381-9a0f-35e04a4c5385")
+	)
+	(fp_line
+		(start 3.985 7.5)
+		(end 3.985 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ea2397-b337-47d3-a3c1-f74d268f0f79")
+	)
+	(fp_text user "VIN"
+		(at 5.585 9.4 0)
+		(layer "F.SilkS")
+		(uuid "b3057edc-27fa-455b-a978-cda0f60b83f5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "V+"
+		(at 8.125 9.4 0)
+		(layer "F.SilkS")
+		(uuid "aed273a0-95ab-4f44-907f-396c40a161d0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 10.665 9.4 0)
+		(layer "F.SilkS")
+		(uuid "08b376d9-6ccd-43b8-866f-ddd0d76bdaf3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_rect
+		(start -16.32 -5.75)
+		(end 16.32 5.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a5c04602-83af-4234-a327-4edc3e4685e7")
+	)
+	(fp_rect
+		(start 4.085 5.05)
+		(end 12.165 8.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dd7db4b3-df9b-43c7-812b-9ec2353f1e72")
+	)
+	(model "C:/Users/Ramiro/Documents/KiCad/10.0/SnapEDA/3dmodels/VOLTMETER_0V28_2381AS.step"
+		(offset
+			(xyz 0 0 14.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
