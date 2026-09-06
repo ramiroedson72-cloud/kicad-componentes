@@ -1,0 +1,202 @@
+(footprint "CONV_MINI560"
+	(version 20240108)
+	(generator "manual")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Modulo regulador buck Mini560 (chip JW5068A), salida fija 3.3/5/9/12V hasta 5A. PCB 18x30mm, 4 conexiones de 2 barrenos D1.5 a 2.54mm mas EN. Salida a la izquierda, entrada a la derecha, negativos arriba. Cotas medidas del STEP de GrabCAD; la ficha de UNIT (20x30) esta equivocada en el lado corto.")
+	(tags "mini560 buck step-down regulador modulo JW5068A")
+	(attr through_hole)
+	(property "Reference" "U**"
+		(at 0 -10.5 0)
+		(layer "F.SilkS")
+		(uuid "85d1b1aa-b875-4424-af31-f050b43340e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MINI560"
+		(at 0 10.5 0)
+		(layer "F.Fab")
+		(uuid "25675ac9-b88c-4d84-aa75-5ad052dabfa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -13.0 -7.0)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "346c35af-fbf9-4cc9-8eff-0f579b6a3143")
+	)
+	(pad "1" thru_hole circle
+		(at -13.0 -4.46)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19a1d2e1-a0cb-4dfb-b56f-b6b645fff329")
+	)
+	(pad "2" thru_hole circle
+		(at -13.0 4.46)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7d4a77b-b7e7-464c-992e-35486e672d01")
+	)
+	(pad "2" thru_hole circle
+		(at -13.0 7.0)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b258363-e5f1-4a04-8a67-f67dd01fc92c")
+	)
+	(pad "3" thru_hole circle
+		(at 13.0 -7.0)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6eed6644-2613-411b-8d9e-e1b86c4e88b2")
+	)
+	(pad "3" thru_hole circle
+		(at 13.0 -4.46)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d307eb0b-17fb-422d-8d9a-ce8757d5f7cc")
+	)
+	(pad "4" thru_hole circle
+		(at 13.0 4.46)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66914509-a22b-4db0-a88f-44495f14cb2e")
+	)
+	(pad "4" thru_hole circle
+		(at 13.0 7.0)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "263e728e-2504-4b3f-ae5c-b1cf3af617d5")
+	)
+	(pad "5" thru_hole circle
+		(at 5.4 -7.925)
+		(size 1.9 1.9)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b636284f-faa6-4e55-a8c8-a960fbb83054")
+	)
+	(fp_rect
+		(start -15.0 -9.0)
+		(end 15.0 9.0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f0cb8bd6-c892-4f31-bae5-153fa7977a72")
+	)
+	(fp_rect
+		(start -15.0 -9.0)
+		(end 15.0 9.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "34ca2282-a985-4b1d-8e39-804f7d5c466c")
+	)
+	(fp_text user "VOUT-"
+		(at -8.4 -5.73 0)
+		(layer "F.SilkS")
+		(uuid "27487b27-d7b5-4cfe-a95d-d6c2cf725837")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VOUT+"
+		(at -8.4 5.73 0)
+		(layer "F.SilkS")
+		(uuid "0bedc0e7-6969-4c99-85c7-46ce3431179e")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VIN-"
+		(at 8.4 -5.73 0)
+		(layer "F.SilkS")
+		(uuid "e2c74b5c-e754-472e-8d5d-5f5438ff1951")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VIN+"
+		(at 8.4 5.73 0)
+		(layer "F.SilkS")
+		(uuid "eb085701-be36-48a7-a6a5-ead8c25687de")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "EN"
+		(at 8.0 -7.925 0)
+		(layer "F.SilkS")
+		(uuid "1c4d5758-a1d5-4389-80ed-25de67cd6304")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -15.5 -9.5)
+		(end 15.5 9.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "81fc4b1c-ebfb-4ae7-9d05-8dfe3606f890")
+	)
+	(model "C:/Users/Ramiro/Documents/KiCad/10.0/SnapEDA/3dmodels/CONV_MINI560.step"
+		(offset
+			(xyz 15 9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
